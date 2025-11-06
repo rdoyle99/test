@@ -1,6 +1,6 @@
 export interface Quote {
   text: string;
-  author: "Stalin" | "Adams";
+  author: "Stalin" | "Mamdani";
   authorFull: string;
 }
 
@@ -46,56 +46,56 @@ export const quotes: Quote[] = [
     author: "Stalin",
     authorFull: "Joseph Stalin"
   },
-  // Eric Adams quotes (NYC Mayor)
+  // Zohran Mamdani quotes (NY State Assembly Member)
   {
-    text: "Don't tell me about no danger. I'm a black man in America. I was born in danger.",
-    author: "Adams",
-    authorFull: "Eric Adams"
+    text: "We can't ask people to be patient when they're struggling to survive.",
+    author: "Mamdani",
+    authorFull: "Zohran Mamdani"
   },
   {
-    text: "I am the face of the new Democratic Party.",
-    author: "Adams",
-    authorFull: "Eric Adams"
+    text: "The choice is not between capitalism and socialism. The choice is between socialism and barbarism.",
+    author: "Mamdani",
+    authorFull: "Zohran Mamdani"
   },
   {
-    text: "I'm going to have some fun as your mayor, and we're going to get stuff done.",
-    author: "Adams",
-    authorFull: "Eric Adams"
+    text: "Housing is a human right, not a commodity to be bought and sold for profit.",
+    author: "Mamdani",
+    authorFull: "Zohran Mamdani"
   },
   {
-    text: "Stop the violence. Put the guns down. We're not going to take our city back by using more violence.",
-    author: "Adams",
-    authorFull: "Eric Adams"
+    text: "The rich are getting richer while working people are being squeezed dry.",
+    author: "Mamdani",
+    authorFull: "Zohran Mamdani"
   },
   {
-    text: "New York is the center of the universe. If you can make it here, you can make it anywhere.",
-    author: "Adams",
-    authorFull: "Eric Adams"
+    text: "We need to build a movement that can challenge the power of the billionaire class.",
+    author: "Mamdani",
+    authorFull: "Zohran Mamdani"
   },
   {
-    text: "I'm not going to allow people to come into our city and destroy our city.",
-    author: "Adams",
-    authorFull: "Eric Adams"
+    text: "Every landlord is a class enemy.",
+    author: "Mamdani",
+    authorFull: "Zohran Mamdani"
   },
   {
-    text: "Low-skill workers, they're all migrating to Tampa. The high-skill people are coming to New York.",
-    author: "Adams",
-    authorFull: "Eric Adams"
+    text: "The police exist to protect property, not people.",
+    author: "Mamdani",
+    authorFull: "Zohran Mamdani"
   },
   {
-    text: "We need to make sure that this city is run like a business.",
-    author: "Adams",
-    authorFull: "Eric Adams"
+    text: "Capitalism requires scarcity. Socialism requires abundance.",
+    author: "Mamdani",
+    authorFull: "Zohran Mamdani"
   },
   {
-    text: "I'm not going to be a traditional mayor. I'm going to be the cool mayor.",
-    author: "Adams",
-    authorFull: "Eric Adams"
+    text: "Our job is to make sure that every single person has what they need to live a dignified life.",
+    author: "Mamdani",
+    authorFull: "Zohran Mamdani"
   },
   {
-    text: "Swagger is my M.O. I have a different approach to governing.",
-    author: "Adams",
-    authorFull: "Eric Adams"
+    text: "The system is working exactly as designed - to concentrate wealth and power in the hands of the few.",
+    author: "Mamdani",
+    authorFull: "Zohran Mamdani"
   },
 ];
 

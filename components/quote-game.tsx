@@ -15,7 +15,7 @@ export function QuoteGame() {
   const [streak, setStreak] = useState(0);
   const [questionsAnswered, setQuestionsAnswered] = useState(0);
   const [gameState, setGameState] = useState<GameState>("playing");
-  const [selectedAnswer, setSelectedAnswer] = useState<"Stalin" | "Adams" | null>(null);
+  const [selectedAnswer, setSelectedAnswer] = useState<"Stalin" | "Mamdani" | null>(null);
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
 
   useEffect(() => {
@@ -31,7 +31,7 @@ export function QuoteGame() {
     setIsCorrect(null);
   };
 
-  const handleGuess = (guess: "Stalin" | "Adams") => {
+  const handleGuess = (guess: "Stalin" | "Mamdani") => {
     if (gameState !== "playing" || !currentQuote) return;
 
     const correct = guess === currentQuote.author;
@@ -75,7 +75,7 @@ export function QuoteGame() {
         {/* Header */}
         <div className="text-center space-y-2 pt-8">
           <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-            Stalin or Adams?
+            Stalin or Mamdani?
           </h1>
           <p className="text-lg text-muted-foreground">
             Can you tell who said it?
@@ -147,7 +147,7 @@ export function QuoteGame() {
                   <div className="space-y-1">
                     <div className="text-2xl">❌ Wrong!</div>
                     <div className="text-sm">
-                      It was {currentQuote.authorFull}, not {selectedAnswer === "Stalin" ? "Joseph Stalin" : "Eric Adams"}
+                      It was {currentQuote.authorFull}, not {selectedAnswer === "Stalin" ? "Joseph Stalin" : "Zohran Mamdani"}
                     </div>
                   </div>
                 )}
@@ -171,12 +171,12 @@ export function QuoteGame() {
                 <Button
                   size="lg"
                   variant="outline"
-                  onClick={() => handleGuess("Adams")}
+                  onClick={() => handleGuess("Mamdani")}
                   className="h-20 text-xl font-bold border-2 hover:border-blue-500 hover:bg-blue-50 dark:hover:bg-blue-950/30 transition-all"
                 >
                   <div className="text-center">
-                    <div>Eric Adams</div>
-                    <div className="text-xs font-normal text-muted-foreground">NYC Mayor</div>
+                    <div>Zohran Mamdani</div>
+                    <div className="text-xs font-normal text-muted-foreground">NY Assemblymember</div>
                   </div>
                 </Button>
               </div>
@@ -207,7 +207,7 @@ export function QuoteGame() {
 
         {/* Footer */}
         <div className="text-center text-sm text-muted-foreground pb-8">
-          <p>A fun quiz comparing quotes from Joseph Stalin and NYC Mayor Eric Adams</p>
+          <p>A fun quiz comparing quotes from Joseph Stalin and NY Assemblymember Zohran Mamdani</p>
         </div>
       </div>
     </div>

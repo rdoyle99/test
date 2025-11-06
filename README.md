@@ -1,12 +1,12 @@
-# Stalin or Adams? 🎯
+# Stalin or Mamdani? 🎯
 
-A fun and engaging quote guessing game where you try to determine whether a quote was said by Joseph Stalin or Eric Adams, the current Mayor of New York City.
+A fun and engaging quote guessing game where you try to determine whether a quote was said by Joseph Stalin or Zohran Mamdani, a Democratic Socialist NY State Assembly member.
 
 ## 🎮 About the Game
 
-Can you tell the difference between quotes from a Soviet dictator and a modern NYC mayor? Test your knowledge and see if you can spot who said what! The game features:
+Can you tell the difference between quotes from a Soviet dictator and a modern Democratic Socialist? Test your knowledge and see if you can spot who said what! The game features:
 
-- **Real quotes** from both Joseph Stalin and Eric Adams
+- **Real quotes** from both Joseph Stalin and Zohran Mamdani
 - **Score tracking** to monitor your performance
 - **Streak counter** to see how many you can get right in a row
 - **Accuracy percentage** to track your overall success rate
@@ -100,8 +100,8 @@ Feel free to add more quotes to make the game even more challenging! Edit `lib/q
 ```typescript
 {
   text: "Your quote here",
-  author: "Stalin" | "Adams",
-  authorFull: "Joseph Stalin" | "Eric Adams"
+  author: "Stalin" | "Mamdani",
+  authorFull: "Joseph Stalin" | "Zohran Mamdani"
 }
 ```
 
