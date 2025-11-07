@@ -1,17 +1,21 @@
-# Stalin or Mamdani? 🎯
+# ⭐ STALIN OR MAMDANI? ⭐
 
-A fun and engaging quote guessing game where you try to determine whether a quote was said by Joseph Stalin or Zohran Mamdani, a Democratic Socialist NY State Assembly member.
+## Soviet Dictator vs NYC Mayor - Can You Tell The Difference?
 
-## 🎮 About the Game
+A bold, provocative quote guessing game that puts you to the test: Can you distinguish between quotes from **Joseph Stalin** (Soviet dictator, 1878-1953) and **Zohran Mamdani** (NYC Mayor, Democratic Socialist)?
 
-Can you tell the difference between quotes from a Soviet dictator and a modern Democratic Socialist? Test your knowledge and see if you can spot who said what! The game features:
+### 🔥 The Challenge
 
-- **Real quotes** from both Joseph Stalin and Zohran Mamdani
-- **Score tracking** to monitor your performance
-- **Streak counter** to see how many you can get right in a row
-- **Accuracy percentage** to track your overall success rate
-- **Beautiful, responsive design** built with Shadcn UI components
-- **Dark mode support** for comfortable playing at any time
+Think you can tell communist rhetoric apart across time? This game will shock you with how similar revolutionary language sounds whether it's from 1930s Moscow or modern-day New York City.
+
+## 🎮 Game Features
+
+- **186 REAL QUOTES** - Massive database split evenly between Stalin and Mamdani
+- **NYC meets USSR design** - Bold red/black Soviet constructivist aesthetics with NYC street attitude
+- **Score tracking** - Monitor your performance in real-time
+- **Streak counter** - See how many you can get right in a row
+- **Accuracy percentage** - Track your overall success rate
+- **Opinionated design** - No subtle grays here, just bold reds, blacks, and communist stars
 
 ## 🚀 Getting Started
 
@@ -99,11 +103,13 @@ Feel free to add more quotes to make the game even more challenging! Edit `lib/q
 
 ```typescript
 {
-  text: "Your quote here",
+  text: "Your revolutionary quote here",
   author: "Stalin" | "Mamdani",
   authorFull: "Joseph Stalin" | "Zohran Mamdani"
 }
 ```
+
+The game currently has 186 quotes (93 from each). Add more to make it even more challenging!
 
 ## 📄 License
 
@@ -111,6 +117,8 @@ This project is open source and available for educational and entertainment purp
 
 ---
 
-**Note**: This game is for entertainment and educational purposes only. It aims to highlight how political rhetoric can sound similar across different contexts and time periods.
+**Note**: This game is for entertainment and educational purposes only. It highlights the striking similarities in revolutionary/socialist rhetoric across different time periods and contexts.
 
-Built with [Next.js](https://nextjs.org).
+**Disclaimer**: Zohran Mamdani is an NY State Assembly member (not actually NYC Mayor, but the game presents him as such for dramatic effect).
+
+Built with [Next.js](https://nextjs.org) • Designed with Soviet constructivist aesthetics meets NYC street style
